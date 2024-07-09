@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+/* .new-year-banner-section */
+.new-year-banner{
+    position: relative;
+    width: 1230px;
+    height: 550px;
+    margin: 25px auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/Banner\ Image.png);
+}
+.new-year-banner .banner-content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* background-blend-mode: overlay; */
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 130px;
+}
+
+/* offer-section-style */
+.offer-section{
+    width: 1230px;
+    /* height: 500px; */
+    margin: 50px auto;
+    /* border: 2px solid yellow; */
+}
+.offer-conteiner{
+    width: 60%;
+    margin: 20px auto;
+}
+.offer-conteiner h1{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.offer-conteiner h4{
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    /* letter-spacing: 1px; */
+    font-weight: 450;
+}
+.offer-conteiner h2{
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.offer-conteiner img{
+    width: 500px;
+    height: 350px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+/* welcome-section */
+.welcome{
+    width: 1230px;
+    height: 550px;
+    border: 2px solid yellow;
+    margin: 25px auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/Vectorrr.png);
+}
+.welcome-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.welcome-conteiner{
+    width: 600px;
+    height: 200px;
+    margin-left: 35px;
+    /* border: 3px solid yellow; */
+}
+.image-conteiner{
+    width: 400px;
+    /* height: 200px; */
+}
+.image-conteiner img{
+    width: 290px;
+    height: 380px;
+    margin-left: 30px;
+}
+.welcome-section .welcome-conteiner h2{
+    font-size: 50px;
+    color: white;
+    /* margin: 20px 0px; */
+}
+.welcome-section .welcome-conteiner p{
+    font-size: 18px;
+    color: white;
+    margin: 10px 0px;
+    font-weight: 450;
+}
+.welcome-section .welcome-conteiner button{
+    font-size: 25px;
+    background: none;
+    border: none;
+    margin-top: 65px;
+    color: white;
+}
+.welcome-section .welcome-conteiner button:hover{
+    color: red;
+    transition: 0.5s;
+}
